@@ -7,15 +7,35 @@ $partite = [
     'Loremmm' => 'Napoli Venezia 50 20',//'Napoli', 'Venezia', '50', '20',
 ];
 
-/*
+
 $partite2 = [
-    "olimpia" =>  'Milano', 'Cantù', '55', '60',
-    'Lorem' =>  'Torino', 'Cuneo', '20', '15',
-    'Loremm' => 'Bra', 'Savigliano', '30', '45',
-    'Loremmm' => 'Napoli', 'Venezia', '50', '20',
+    [
+        'home_team' => 'Cantù',
+        'guest_team' => 'Milano',
+        'home_points' => 55,
+        'guest_points' => 60,
+    ],
+    [
+        'home_team' => 'Cantù2',
+        'guest_team' => 'Milano2',
+        'home_points' => 40,
+        'guest_points' => 50,
+    ],
+    [
+        'home_team' => 'Cantù3',
+        'guest_team' => 'Milano3',
+        'home_points' => 30,
+        'guest_points' => 20,
+    ],
+    [
+        'home_team' => 'Cantù4',
+        'guest_team' => 'Milano5',
+        'home_points' => 40,
+        'guest_points' => 10,
+    ],
 ];
 
-*/
+
 
 foreach ($partite as $key => $value) {
     # code...
@@ -24,13 +44,13 @@ foreach ($partite as $key => $value) {
     //echo $partite;
 }
 
-/*
-foreach ($partite2 as $key => $value) {
+var_dump($partite2);
+
+foreach ($partite2 as $value) {
     # code...
-    echo $value;
-    echo '<br>';
+    echo $value['home_team']. "-". $value['guest_team']. " ". $value['home_points']. "|" . $value['guest_points'] .'<br>';
 }
-*/
+
 
 
 /*
