@@ -7,6 +7,16 @@ $partite = [
     'Loremmm' => 'Napoli Venezia 50 20',//'Napoli', 'Venezia', '50', '20',
 ];
 
+/*
+$partite2 = [
+    "olimpia" =>  'Milano', 'Cantù', '55', '60',
+    'Lorem' =>  'Torino', 'Cuneo', '20', '15',
+    'Loremm' => 'Bra', 'Savigliano', '30', '45',
+    'Loremmm' => 'Napoli', 'Venezia', '50', '20',
+];
+
+*/
+
 foreach ($partite as $key => $value) {
     # code...
     echo $key ." ". $value;
@@ -15,11 +25,13 @@ foreach ($partite as $key => $value) {
 }
 
 /*
-foreach ($partite as $key => $value) {
+foreach ($partite2 as $key => $value) {
     # code...
+    echo $value;
+    echo '<br>';
 }
-
 */
+
 
 /*
 ## Snack 1
